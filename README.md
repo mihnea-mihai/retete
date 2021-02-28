@@ -1,2 +1,2 @@
-# retete
+# Rețete
 Rețete și idei
