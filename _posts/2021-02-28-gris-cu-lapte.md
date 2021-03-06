@@ -13,6 +13,7 @@ tags: [griș, lapte]
 * praf de sare
 * vanilie (baton, extract sau zahăr vanilat)
 * scorțișoară (opțional)
+
 # Preparare
 1. Laptele se dă în clocot.
 2. Se adaugă vanilia, zahărul, sarea și untul și se amestecă până se omogenizează.
