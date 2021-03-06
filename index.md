@@ -1,6 +1,6 @@
 # Rețete 
-{% assign sorted_categories = {{ site.categories | sort }} %}
-{% for category in sorted_categories %}
+
+{% for category in site.categories %}
   {{ category[0] }}
 
   {% for post in category[1] %}
