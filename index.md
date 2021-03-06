@@ -1,1 +1,2 @@
 # Rețete 
+{{ site.posts }}
