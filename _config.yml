@@ -8,6 +8,7 @@ github_username:  mihnea-mihai # DO NOT include the @ character, or else the bui
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
-theme:
-  minima:
+theme: minima
+
+minima:
     skin: dark
