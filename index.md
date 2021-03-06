@@ -4,8 +4,11 @@
 {% endfor %}  
 
 {% for category in site.categories %}  
+    {{ category }}  
+    {{ category.name }} 
+    {{ category.text }}  
+
     {% for post in site.posts %}  
-    category  
       {% if post.category == category %}
         [{{ post.title }}]({{ site.url }}/retete{{ post.url }})
       {% endif %}  
