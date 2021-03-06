@@ -1,7 +1,7 @@
 ---
-title: "Brioșe cu banane și ciocolată"
+title: Brioșe cu banane și ciocolată
 date: 2021-02-28
-category: "Deserturi"
+category: Deserturi
 tags: [lapte, ouă, banane, unt]
 ---
 

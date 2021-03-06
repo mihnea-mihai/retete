@@ -1,7 +1,7 @@
 ---
 title: "Ciorbă de perișoare"
 date: 2021-03-06
-category: "Supe și ciorbe"
+category: Supe și ciorbe
 tags: [lobodă, borș, iaurt]
 ---
 
