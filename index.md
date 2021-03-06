@@ -1,8 +1,7 @@
 # Rețete
 
 {% for category in site.categories %}
-** {{ category[0] }} **
-  ** {{ category[0] }}
+  **{{ category[0] }}**
 {% endfor %}
 
 {{ site.categories | array_to_sentence_string }}
