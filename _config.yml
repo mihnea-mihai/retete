@@ -1,11 +1,10 @@
-title: Rețete
+title: Rețete și atât
 author: MihneaM
 email: mihnea@mihaim.ro
-description: > # this means to ignore newlines until "baseurl:"
-  Rețete pentru oameni organizați.
-# social links
-github_username:  mihnea-mihai # DO NOT include the @ character, or else the build will fail!
+description: Rețete fără aditivi pentru oameni organizați.
 
-show_excerpts: false # set to false to remove excerpts on the homepage
+github_username:  mihnea-mihai
+
+show_excerpts: false
 
 theme: jekyll-theme-cayman
