@@ -32,7 +32,7 @@ Foile de plăcintă se desfac și se lasă la uscat câteva ore, apoi se rup și
 
 Se sparg 4 ouă și se bat cu un praf de sare, apoi se adaugă treptat zahărul vanilat și zahărul, până când crema devine lucioasă. Se adaugă coaja de la o portocală și uleiul, puțin câte puțin. Se răstoarnă și iaurtul grecesc și se amestecă bine.
 
-Compoziția se pune peste foile uscate și se lasă 5 minute să se înmoaie. Totul se bagă la cuptor la 170 °C timp de 30 de minute.
+Compoziția se pune peste foile uscate și se lasă 5 minute să se înmoaie. Totul se bagă la cuptor la 170°C timp de 30 de minute.
 
 Pentru sirop, se pun pe foc apa, zahărul și sucul de portocale proaspăt stors și coaja de la încă o portocală. Se lasă pe foc până se topește zahărul.
 
