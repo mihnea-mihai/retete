@@ -1,2 +1,2 @@
-# Rețete
+# Rețete și atât
 Rețete 
