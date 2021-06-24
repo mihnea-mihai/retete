@@ -7,5 +7,4 @@ github_username:  mihnea-mihai
 
 show_excerpts: false
 
-theme: jekyll-theme-minima
-  skin: dark
+theme: jekyll-theme-cayman
