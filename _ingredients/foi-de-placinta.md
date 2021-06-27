@@ -1,5 +1,5 @@
 ---
-name: iaurt grecesc
+name: foi de plăcintă
 ---
 
-Iaurt grecesc
+Foi de plăcintă
