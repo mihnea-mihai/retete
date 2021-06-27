@@ -11,6 +11,7 @@ layout: nav_default
 <ul>
   {% for ingredient in page.ingredients %}
     {% assign ing_page = site.ingredients | find: "name", ingredient.type %}
+    {{ ing_page }}
     <li>
       <a href="{{ ing_page.url }}">{{ ingredient.type }}</a> ({{ ingredient.qty }} {{ ingredient.unit }})
     </li> 
@@ -20,7 +21,3 @@ layout: nav_default
 <h1>Preparare</h1>
 
 {{ content }}
-
-
-
-<a href="{{ post.url }}">{{ post.title }}
