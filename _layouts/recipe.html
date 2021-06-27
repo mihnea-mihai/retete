@@ -1,0 +1,26 @@
+---
+layout: nav_default
+
+# title: string
+# ingredients:
+#   - [qty,unit,name]
+---
+
+<h1>Ingrediente</h1>
+
+<ul>
+  {% for ingredient in page.ingredients %}
+    {% assign ing_page = site.ingredients | find: "name", ingredient.type %}
+    <li>
+      <a href="{{ ing_page.url }}">{{ ingredient.type }}</a> ({{ ingredient.qty }} {{ ingredient.unit }})
+    </li> 
+  {% endfor %}
+</ul>
+
+<h1>Preparare</h1>
+
+{{ content }}
+
+
+
+<a href="{{ post.url }}">{{ post.title }}

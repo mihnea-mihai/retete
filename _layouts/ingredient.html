@@ -1,0 +1,21 @@
+---
+layout: nav_default
+---
+
+<h1>Descriere</h1>
+
+{{ content }}
+
+<h1>Rețete</h1>
+
+<ul>
+    {% for recipe in site.recipes %}
+      {% for recipe_ingredient in recipe.ingredients %}
+        {% if recipe_ingredient.type == page.name %}
+          <li>
+            <a href="{{ recipe.url }}">{{ recipe.title }}</a>
+          </li> 
+        {% endif %}  
+      {% endfor %}
+    {% endfor %}
+  </ul>

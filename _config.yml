@@ -8,3 +8,25 @@ github_username:  mihnea-mihai
 show_excerpts: false
 
 theme: jekyll-theme-cayman
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "nav_default"
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"
+  - scope:
+      path: ""
+      type: "ingredients"
+    values:
+      layout: "ingredient"
+
+collections:
+  recipes:
+    output: true
+  ingredients:
+    output: true
