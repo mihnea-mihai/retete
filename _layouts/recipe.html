@@ -7,13 +7,16 @@ layout: nav_default
 <h1>Ingrediente</h1>
 
 <ul>
-  {% for ingredient in page.ingredients %}
-    {% assign ing_page = site.ingredients | find: "name", ingredient.type %}
-    {{ ing_page }}  <br>
-    {{ ing_page.content }} <br>
-    <li>
-      <a href="{{ ing_page.url }}">{{ ingredient.type }}</a> ({{ ingredient.qty }} {{ ingredient.unit }})
-    </li> 
+  {% for page_ingredient in page.ingredients %}
+    {% for site_ingredient in site.ingredients %}
+      {% if site_ingredient.name == page_ingredient.type %}
+      {{ site_ingredient }}  <br>
+      {{ site_ingredient.content }} <br>
+      <li>
+        <a href="{{ site_ingredient.url }}">{{ page_ingredient.type }}</a> ({{ page_ingredient.qty }} {{ page_ingredient.unit }})
+      </li> 
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
 
