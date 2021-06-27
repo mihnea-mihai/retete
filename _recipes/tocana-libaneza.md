@@ -3,42 +3,44 @@ title: Tocană libaneză cu fasole și năut
 
 source: https://www.connoisseurusveg.com/lebanese-green-bean-stew-with-chickpeas-almonds/
 
+servings: 6
+
 ingredients:
     - 
         type: ceapă
-        qty: 1
+        qty: 2
         unit: buc.
     -
         type: usturoi
-        qty: 5
+        qty: 7
         unit: căței
     -
         type: roșii
-        qty: 400
+        qty: 600
         unit: g
     -
         type: pastă de tomate
-        qty: 2
+        qty: 3
         unit: lg
     -
         type: fasole verde
-        qty: 350
+        qty: 500
         unit: g
     -
         type: năut
-        qty: 150
+        qty: 200
         unit: g
     -
         type: migdale
-        qty: 75
+        qty: 100
         unit: g
     -
         type: supă de pui
-        qty: 350
+        qty: 500
         unit: ml
     -
         type: ulei de măsline
-        qty: 2
+        qty: 3
         unit: lg
     -
         type: chimen
