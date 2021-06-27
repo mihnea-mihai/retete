@@ -1,5 +1,5 @@
 ---
-name: praf-de-copt
+name: praf de copt
 ---
 
 Praf de copt
