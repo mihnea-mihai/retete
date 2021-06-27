@@ -10,8 +10,6 @@ layout: nav_default
   {% for page_ingredient in page.ingredients %}
     {% for site_ingredient in site.ingredients %}
       {% if site_ingredient.name == page_ingredient.type %}
-      {{ site_ingredient }}  <br>
-      {{ site_ingredient.content }} <br>
       <li>
         <a href="{{ site_ingredient.url }}">{{ page_ingredient.type }}</a> ({{ page_ingredient.qty }} {{ page_ingredient.unit }})
       </li> 
