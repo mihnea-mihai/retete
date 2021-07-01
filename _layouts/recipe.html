@@ -12,6 +12,12 @@ layout: nav_default
 
 {{ site.ingredients }}
 
+{% for ing in site.ingredients %}
+  {{ing}}<br>
+  {{ing.url}}<br>
+  {{ing.content}}
+{% endfor %}
+
 <h1>Ingrediente</h1>
 
 <ul>
