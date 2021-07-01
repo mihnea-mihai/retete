@@ -9,7 +9,10 @@ layout: nav_default
 <br>
 <b>Porții:</b> {{ page.servings }}
 
-{{ site.ingredients | find: "name", "lapte"  }}
+{{ site.ingredients | where: "name", "lapte"  }}
+
+
+{{ site.ingredients | where: "name", "lapte" | first }}
 
 {{ site.ingredients }}
 
