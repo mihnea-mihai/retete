@@ -9,22 +9,6 @@ layout: nav_default
 <br>
 <b>Porții:</b> {{ page.servings }}
 
-{{ site.ingredients | where: "name", "lapte"  }}
-
-
-{% assign lapte = site.ingredients | where: "name", "lapte" | first %}
-
-{{lapte.url}}
-
-
-{{ site.ingredients }}
-
-{% for ing in site.ingredients %}
-  {{ing}}<br>
-  {{ing.url}}<br>
-  {{ing.content}}<br>
-{% endfor %}
-
 <h1>Ingrediente</h1>
 
 <ul>
@@ -43,10 +27,8 @@ layout: nav_default
 
 <ul>
   {% for page_ingredient in page.ingredients %}
-    {% assign ingredient = site.ingredients | find: "name", page_ingredient.type %}
+    {% assign ingredient = site.ingredients | where: "name", page_ingredient.type | first %}
       <li>
-        {{ ingredient }} <br>
-        {{ingredient.url}} <br>
         <a href="{{ ingredient.url }}">{{ page_ingredient.type }}</a> ({{ page_ingredient.qty }} {{ page_ingredient.unit }})
       </li> 
   {% endfor %}
