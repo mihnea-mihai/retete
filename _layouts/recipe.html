@@ -12,7 +12,10 @@ layout: nav_default
 {{ site.ingredients | where: "name", "lapte"  }}
 
 
-{{ site.ingredients | where: "name", "lapte" | first }}
+{% assign lapte = site.ingredients | where: "name", "lapte" | first %}
+
+{{lapte.url}}
+
 
 {{ site.ingredients }}
 
