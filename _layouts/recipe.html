@@ -29,6 +29,7 @@ layout: nav_default
   {% for page_ingredient in page.ingredients %}
     {% assign ingredient = site.ingredients | find: name, page_ingredient.type %}
       <li>
+        {{ingredient.url}}
         <a href="{{ ingredient.url }}">{{ page_ingredient.type }}</a> ({{ page_ingredient.qty }} {{ page_ingredient.unit }})
       </li> 
   {% endfor %}
