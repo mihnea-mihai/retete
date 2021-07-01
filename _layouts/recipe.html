@@ -8,20 +8,7 @@ layout: nav_default
 
 <br>
 <b>Porții:</b> {{ page.servings }}
-
-<h1>Ingrediente</h1>
-
-<ul>
-  {% for page_ingredient in page.ingredients %}
-    {% for site_ingredient in site.ingredients %}
-      {% if site_ingredient.name == page_ingredient.type %}
-      <li>
-        <a href="{{ site_ingredient.url }}">{{ page_ingredient.type }}</a> ({{ page_ingredient.qty }} {{ page_ingredient.unit }})
-      </li> 
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-</ul>
+<br>
 
 <h1>Ingrediente</h1>
 
