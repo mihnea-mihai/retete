@@ -23,6 +23,19 @@ layout: nav_default
   {% endfor %}
 </ul>
 
+<h1>Ingrediente</h1>
+
+<ul>
+  {% for page_ingredient in page.ingredients %}
+    {% assign ingredient = site.ingredients | find: name, page_ingredient.type %}
+      <li>
+        <a href="{{ ingredient.url }}">{{ page_ingredient.type }}</a> ({{ page_ingredient.qty }} {{ page_ingredient.unit }})
+      </li> 
+  {% endfor %}
+</ul>
+
+
+
 <h1>Preparare</h1>
 
 {{ content }}
