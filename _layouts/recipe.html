@@ -9,6 +9,9 @@ layout: nav_default
 <br>
 <b>Porții:</b> {{ page.servings }}
 
+
+{{ site.ingredients }}
+
 <h1>Ingrediente</h1>
 
 <ul>
@@ -29,7 +32,8 @@ layout: nav_default
   {% for page_ingredient in page.ingredients %}
     {% assign ingredient = site.ingredients | find: name, page_ingredient.type %}
       <li>
-        {{ingredient.url}}
+        {{ ingredient }} <br>
+        {{ingredient.url}} <br>
         <a href="{{ ingredient.url }}">{{ page_ingredient.type }}</a> ({{ page_ingredient.qty }} {{ page_ingredient.unit }})
       </li> 
   {% endfor %}
